@@ -1,7 +1,6 @@
 export const selectedUser = (user) => {
-  console.log("Clicked on: ", user.first);
   return {
-      type: "User selected",
+      type: "USER_SELECTED",
       payload: user
   }
 };
